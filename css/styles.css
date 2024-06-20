@@ -562,9 +562,11 @@ img {
   color: #2e2f42;
   margin-bottom: 16px;
 }
-/*.form-input {
-  padding: ;
-  color: ;
-  border: ;
-  border-radius: ;
-}*/
+.modal-input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin-bottom: px;
+  padding-left: px;
+}
