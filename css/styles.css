@@ -499,7 +499,11 @@ img {
 .backdrop {
   width: 100%;
   height: 100%;
-  background-color: #2e2f42;
+  background-color: #2e2f4266;
   position: fixed;
   top: 0;
+}
+.modal {
+  width: 408px;
+  height: 584px;
 }
