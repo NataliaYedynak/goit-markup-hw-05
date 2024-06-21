@@ -628,11 +628,10 @@ img {
   margin-bottom: 16px;
 }
 .modal-div {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 .modal-cont {
   position: relative;
-  margin-bottom: 16px;
 }
 .modal-input {
   width: 100%;
