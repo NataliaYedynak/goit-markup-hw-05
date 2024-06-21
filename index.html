@@ -437,7 +437,11 @@
       <div class="footer-form-container">
         <p class="footer-form-title">Subscribe</p>
         <form class="footer-form">
-          <label class="footer-form-label" for="footer-email">
+          <label
+            class="footer-form-label"
+            aria-label="email"
+            for="footer-email"
+          >
             <input
               type="email"
               id="footer-email"
@@ -466,7 +470,12 @@
           <div class="modal-div">
             <label class="form-label" for="username">Name</label>
             <div>
-              <input class="modal-input" type="text" name="username" />
+              <input
+                class="modal-input"
+                type="text"
+                name="username"
+                id="username"
+              />
               <svg class="modal-icon" width="18" heidht="18">
                 <use href="./images/icons.svg#icon-person-black"></use>
               </svg>
@@ -475,7 +484,12 @@
           <div class="modal-div">
             <label class="form-label" for="userphone">Phone</label>
             <div>
-              <input class="modal-input" type="text" name="userphone" />
+              <input
+                class="modal-input"
+                type="text"
+                name="userphone"
+                id="userphone"
+              />
               <svg class="modal-icon" width="18" heidht="24">
                 <use href="./images/icons.svg#icon-phone-black"></use>
               </svg>
@@ -484,7 +498,12 @@
           <div class="modal-div">
             <label class="form-label" for="useremail">Email</label>
             <div>
-              <input class="modal-input" type="text" name="useremail" />
+              <input
+                class="modal-input"
+                type="text"
+                name="useremail"
+                id="useremail"
+              />
               <svg class="modal-icon" width="18" heidht="24">
                 <use href="./images/icons.svg#icon-email-black"></use>
               </svg>
@@ -496,6 +515,7 @@
               class="modal-input"
               type="text"
               name="comment"
+              id="comment"
               placeholder="Text input"
             />
           </div>
