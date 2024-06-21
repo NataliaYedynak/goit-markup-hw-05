@@ -630,6 +630,9 @@ img {
 .modal-div {
   margin-bottom: 8px;
 }
+.modal-cont {
+  position: relative;
+}
 .modal-input {
   width: 100%;
   min-height: 40px;
