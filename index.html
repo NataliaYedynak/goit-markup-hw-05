@@ -510,16 +510,32 @@
             </div>
           </div>
           <div class="modal-div">
-            <label class="form-label" for="comment">Comment </label>
-            <input
-              class="modal-input"
-              type="text"
-              name="comment"
-              id="comment"
+            <label class="form-label" for="user-comment">Comment </label>
+            <textarea
+              class="modal-text"
+              name="user-comment"
+              id="user-comment"
               placeholder="Text input"
-            />
+            ></textarea>
           </div>
-          <button type="submit">Send</button>
+          <div class="modal-field check-input">
+            <input
+              type="checkbox"
+              name="user-privacy"
+              id="user-privacy"
+              value="true"
+              class="modal-check visually-hidden"
+            />
+            <label for="user-privacy" class="modal-check-text"
+              ><span class="modal-check-span">
+                <svg class="check-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-check-mark"></use>
+                </svg> </span
+              >I accept the terms and conditions of the
+              <a class="modal-link">Privacy Policy</a></label
+            >
+          </div>
+          <button type="submit" class="modal-btn">Send</button>
         </form>
       </div>
     </div>
