@@ -632,6 +632,7 @@ img {
 }
 .modal-cont {
   position: relative;
+  margin-bottom: 8px;
 }
 .modal-input {
   width: 100%;
@@ -712,6 +713,9 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
+}
+..modal-text:focus {
+  border-color: #4d5ae5;
 }
 .modal-check-text {
   font: 400 12px / 1.16667 "Roboto", sans-serif;
