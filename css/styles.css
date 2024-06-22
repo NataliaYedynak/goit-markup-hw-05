@@ -385,17 +385,14 @@ img {
   color: var(--primary-accent-color);
   background-color: var(--secondary-accent-color);
 }
-
 .main-button:hover {
   color: #ffffff;
   background-color: #404bbf;
 }
-
 .main-button:focus {
   color: #ffffff;
   background-color: #404bbf;
 }
-
 .row-title {
   font-weight: 500;
   font-size: 20px;
@@ -404,7 +401,6 @@ img {
   color: var(--brand-color);
   margin-bottom: 8px;
 }
-
 .row-text {
   font-size: 16px;
   line-height: 1.5;
@@ -541,7 +537,6 @@ img {
 .footer-form-btn-svg {
   margin-left: 16px;
 }
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -659,7 +654,6 @@ img {
 .modal-input:focus + .modal-icon {
   fill: #4d5ae5;
 }
-
 .modal-div-com {
   margin-bottom: 16px;
 }
