@@ -61,7 +61,7 @@ img {
 .header-container {
   display: flex;
   align-items: center;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
 }
 .header-nav {
   display: flex;
